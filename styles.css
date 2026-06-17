@@ -1,0 +1,33 @@
+body{
+    font-family: Verdana, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: lightgr;
+}
+
+form{
+    width: 300px;
+}
+
+input,
+select,
+button{
+    width: 100%;
+
+    padding: 8px;
+
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+input[type="checkbox"]{
+    width: auto;
+}
